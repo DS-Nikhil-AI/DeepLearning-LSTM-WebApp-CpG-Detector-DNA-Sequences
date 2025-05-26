@@ -34,20 +34,22 @@ dna/
    cd dna
    ```
 
-2. Install required packages:
+2. Set current folder as root in python windows cmd
+   ```bash
+      set PYTHONPATH=%cd%
+   ```
+3. Install required packages:
    ```bash
    pip install -r requirements.txt
    ```
-3. Run Flask Web App
+4. Run Flask Web App
    ```bash
-   cd flask_app
-   python app.py
+   python flask_app/app.py
    ```
-4. Run Streamlit Web App
+6. Run Streamlit Web App
 
    ```bash
-   cd streamlit_app
-   streamlit run app.py
+   streamlit streamlit_app/run app.py
    ```
 
    Open your browser at: http://127.0.0.1:5000
