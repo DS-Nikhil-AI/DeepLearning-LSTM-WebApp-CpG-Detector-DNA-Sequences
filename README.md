@@ -30,8 +30,8 @@ dna/
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/your-username/dna-model-webapp.git
-   cd dna-model-webapp
+   git clone https://github.com/DS-Nikhil-AI/DeepLearning-LSTM-WebApp-CpG-Detector-DNA-Sequences.git
+   cd dna
    ```
 
 2. Install required packages:
