@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DNA Model Flask App</title>
+</head>
+
+<body>
+    <h1>DNA Sequence Predictor</h1>
+    <form method="POST">
+        <label>Enter DNA Sequence:</label><br>
+        <input type="text" name="sequence"><br><br>
+        <label>Select Model:</label><br>
+        <input type="radio" name="model" value="fixed" checked> Fixed-Length (No Padding)<br>
+        <input type="radio" name="model" value="padded"> Variable-Length (With Padding)<br><br>
+        <input type="submit" value="Predict">
+    </form>
+    {% if output is not none %}
+    <h2>Model Output: {{ output }}</h2>
+    {% endif %}
+</body>
+
+</html>
